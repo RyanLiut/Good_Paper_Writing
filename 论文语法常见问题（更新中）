@@ -1,0 +1,211 @@
+---
+Title:  论文语法常见错误
+Date: 2020-11-20 
+Tags: paper writing
+Categories: paper writing
+---
+
+***
+# 论文语法常见错误
+
+*"Form is never more than an extension of content"                                                                            --Robert Creeley*
+
+> 这篇文章总结了论文写作中一些常见的语法偏差或错误。例子都来源自己写过的论文，更正和注释来自英语国家本地人、grammerly、Cambridge dictionary、dictionary.com等。其中，✔️、✖️、﹅ 表示正确、错误、尚可。由于例子缺乏上下文和水平有限，以及语言具有的模糊性，有些判断还需要斟酌，因此仅供参考。同时可以参考另一篇[关于写作的文章](论文写作常见错误)
+
+## 目录
+
+- [论文语法常见错误](#论文语法常见错误)
+  * [目录](#目录)
+  * [语法](#语法)
+    + [远近关系](#远近关系)
+    + [冠词](#冠词)
+    + [介词搭配](#介词搭配)
+    + [时态问题](#时态问题)
+    + [名词](#名词)
+    + [形容词](#形容词)
+    + [副词](#副词)
+    + [动词](#动词)
+    + [连词](#连词)
+
+## 语法
+
+***
+### 远近关系
+
+* *Like, such as, i.e.* 等举例说明的句子，后面的例子最好靠近。
+
+  ```
+  ﹅ ...linguistic clues predicted by the detectors are discarded, i.e. action and object labels.
+  ✔️ ...linguistic clues predicted by the detectors, i.e. action and object labels, are discarded.
+  ```
+
+
+
+### 冠词
+
+* the 与 形容词性物主代词。
+
+  ```
+  ✖️ ..., considering the monotony and inaccurate nature, and propose a ...
+  ✔️ ..., considering their monotony and inaccurate nature, and propose a ...
+  ```
+
+* 单数可数名词（有些名词根据不同意思会出现不同的词性，需要个案检验，避免根据中文感觉判断是否可数）不可以单独出现。
+
+  ```
+  ✖️ ... due to the ambiguous contributions of vision and language model.
+  ✔️ ... due to the ambiguous contributions of vision and language models.
+  
+  ✖️ ...using GCNs, external language model (ELM)...
+  ✔️ ...using GCNs, an external language model (ELM)...
+  
+  ✖️ A single word with multiple meaning...
+  ✔️ A single word with multiple meanings...
+  
+  their confidence scores from C3D network.
+  ✔️ their confidence scores from the C3D network.
+  
+  ✖️ ... including both verb and object
+  ✔️ ... including both a verb and an object
+  
+  ✖️ ... in which attention mechanism is applied
+  ✔️ ... in which an attention mechanism
+  
+  These attributes are then... as part of input of the decoder.
+  ✔️ These attributes are then... as part of the input of the decoder.
+  
+  ✖️ ... since ground truth is not available.
+  ✔️ ... since the ground truth is not availble.
+  
+  ✖️ Following the experimental setting in [65]...
+  ✔️ Following the experimental settings in [65]...
+  ```
+
+* 定冠词与不定冠词
+
+  ```
+  ✖️ Recently, ...an encoder-decoder architecture, which employs CNNs, as an encoder, to
+  ✔️ Recently, ...an encoder-decoder architecture, which employs CNNs, as the encoder, to 
+  ```
+
+  
+
+### 介词搭配
+
+* ```
+  ✖️ Video captioning aims to generate a ... sentence of a video clip.
+  ✔️ Video captioning aims to generate a ... sentence for a video clip.
+  ```
+
+
+
+### 时态问题
+
+* 有明显的时间状语，谓语动词要保持一致，尤其完成时容易被忽略。
+
+  ```
+  ✖️ Recently, deep learning provides an encoder-decoder architecture.
+  ✔️ Recently, deep learning has provided an encoder-decoder architecture.
+  
+  ✖️ More recent methods attempt to exploit...
+  ✔️ More recent methods have attempted to exploit...
+  ```
+
+
+
+### 名词
+
+* 动词有对应的名词的，应该用对应的名词，而不是变形为"-ing"。
+
+  ```
+  ✖️ In addition to the insufficient inferring of ...
+  ✔️ In addition to the insufficient inferrence of ...
+  ```
+
+* modal（情态） v.s. modality（模态）
+
+  ```
+  ✖️ ...shared by the features of different modals.
+  ✔️ ...shared by the features of different modalities.
+  ```
+
+  
+
+### 形容词
+
+* 名词有对应的形容词的，应该用对应的形容词，而不是用"of"。
+
+  ```
+  ✖️ without increased burden of computation.
+  ✔️ without increased computational burden.
+  ```
+
+* Comparative v.s. comparable
+
+  Comparative: comparing different things.
+
+  Comparable: similar in size, amount, or quality to something else.
+
+  ```
+  ✖️ Our method has comparative results to ...
+  ✔️ Our method has comparable results to ...
+  ```
+
+  
+
+### 副词
+
+* afterwards v.s. then. Then = subsequently (更近) afterwards (更强调顺序)
+
+  ```
+  ✖️ Early methods employed... , obtain... and afterwards directly fill...
+  ✔️ Early methods employed... , obtain... and then directly fill...
+  ```
+
+* 副词的位置灵活。
+
+  ```
+  ﹅ Video captioning embraces deep models naturally.
+   ✔️ Video captioning naturally embraces deep models.
+     
+  ✖️ Moreover, attention mechanisums are applied... spatially, or boost the relationship... temporally.
+  ✔️ Moreover, attention mechanisums are apatially applied..., or boost the temporally relationship...
+  ```
+
+* In writing, *first* is much more common than *firstly* and is probably the best bet for most situations \[[1](https://www.merriam-webster.com/words-at-play/first-or-firstly#:~:text=History%20of%20Firstly&text=When%20firstly%20was%20finally%20added,Improperly%20used%20instead%20of%20first.%E2%80%9D)]
+
+  ```
+  ✖️ ... firstly use ...
+  ✔️ ... was the first to...
+  ```
+
+  
+
+### 动词
+
+* demonstrate v.s. describe
+
+  demonstrate: to show something and explain how it works. 
+
+  ```
+  ✖️ Then, our detailed encoder-decoder architecture is demonstrated in Section 3.2.
+  ✔️ Then, our detailed encoder-decoder architecture is described in Section 3.2.
+  ```
+
+* refer (sb) to sth: to look at, or tell someone else to look at, a book or similar record in order to find information and help.
+
+   ```
+  More detailed information can be referred to Section 3.2.
+  ✔️ More detailed information can be found in Section 3.2.
+  ```
+
+  
+
+### 连词
+
+* 连词前面往往有标点符号
+
+  ```
+  ... an attention mechanism is applied as done by SAAT.
+  ✔️ ... an attention mechanism is applied, as done by sAAT.
+  ```
