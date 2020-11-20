@@ -1,0 +1,317 @@
+---
+title:  论文写作常见错误
+date: 2020-11-20 
+Tags: paper writing
+Categories: paper writing
+---
+
+***
+
+# 论文写作常见错误
+
+*"Those complicated sentences seemd to him very pearls...'The reason for the unreason with which you treat my reason, so weakens my reason that with reason I complain of your beautiful'... This writings drove the poor knight out of his wits."                                                                            --Robert Creeley*
+
+> 这篇文章总结了论文写作中一些常见的格式上的偏差。注意不同会议、期刊的要求有所不同，需要具体检验相应的要求，但这里的大部分条目是通用的，可以用来参考。其中，✔️、✖️、﹅ 表示正确、错误、尚可。同时可以参考另一篇[关于语法的文章](论文语法常见错误)
+
+## 目录
+
+- [论文写作常见错误](#--------)
+  * [目录](#目录)
+  * [格式](#格式)
+    + [标点符号](#标点符号)
+    + [大小写](#大小写)
+    + [引用](#引用)
+    + [缩略词](#缩略词)
+    + [超链接](#超链接)
+    + [标题](#标题)
+    + [情态动词和时态](#情态动词和时态)
+    + [数字](#数字)
+    + [避免冗长与累赘](#避免冗长与累赘)
+    + [避免口语化](#避免口语化)
+    + [字体字号](#字体字号)
+
+## 格式
+***
+
+### 标点符号 
+
+
+* 引号
+
+  美式写作使用双引号`“`，并且习惯将末尾的句号和逗号放在引号之内；英式写作则习惯使用`'`，习惯将末尾的句号逗号放在引号之外。但在文章中，要保持一致。
+
+  ```
+  American style
+  
+  “Economic systems,” according to Professor White, “are an inevitable byproduct of civilization, and are, as John Doe said, ‘with us whether we want them or not.’”
+  
+  British style uses single quotes (‘) for initial quotations, then double quotes (“) for quotations within the initial quotation.
+  
+  British style
+  
+  ‘Economic systems’, according to Professor White, ‘are an inevitable byproduct of civilization, and are, as John Doe said, “with us whether we want them or not”’.
+  ```
+
+* 公式末尾也需要标点符号，如果公式后面还有解释，用逗号，如果已经结束，使用句号。
+
+  * ✖️ Afterwards, the object features... by
+  
+      XXX
+
+    ✔️ Afterwards, the object features... by
+    
+    ​ XXX.                     
+
+  * ✖️ Afterwards, the object features... by
+
+    XXX                
+
+    ​     where $\alpha_j$ is the weight.
+    ✔️ Afterwards, the object features... by
+    
+    XXX,
+    
+    ​	where....
+
+* 一般来说，*i.e.*和*e.g.*的前面和后面都需要加逗号。
+
+* 小的计号符不应该影响连接词。
+
+  ```
+  ✖️ ...Our method includes i) A, B, ii) C, D, iii) E, F.
+  ✔️ ...Our method includes i) A, B, ii) C, D, and iii) E, F.
+  ```
+
+  
+
+### 大小写
+
+* 一般缩写前的名词，无需首字母大写。
+
+  ```
+  ✖️ ...Graph Convolutional Networks (GCNs)...
+  ✔️ ...graph convolutional networks (GCNs)...
+  
+  ✖️ ...Part of Speech (POS)...
+  ✔️ ...a part of speech (POS)...
+   
+  ✖️ ...Subject-Verb-Object (SVO)...
+  ✔️ ...subject-verb-object (SVO)
+  
+  ✖️ In Semi-Supervised learning (SSL)...
+  ✔️ In semi-supervised learning (SSL)...
+  ```
+
+* 有些词并非专有名词（容易被想当然为专有名词），无需首字母大写。
+
+  ```
+  ✖️ ...Computer Vision,..., Natural Language Processing...
+  ✔️ ...computer vision,..., natural language processing...
+  
+  ✖️ Upper (Dotted Box)...
+  ✔️ Upper (dotted box)...
+  ```
+
+* 英式英语中，仅当在专有名词和首字母缩写等需要大写外，其余跟在冒号`:`后面的单词的首字母无需大写；美式英语中，如果冒号后面是个完整的句子有时需要大写（下面例子按照美式英语）。
+
+  ```
+  ✖️ In summary: (1) we propose, (2) our method, (3) results show that.
+  ✔️ In summary: (1) We propose. (2) Our method. (3) Results show that.
+  ```
+
+* 图表描述无需首字母大写（可选）。
+
+* “Section", "Figure", "Table" 等论文中的专有名词，需要首字母大写。
+
+  ```
+  ✖️ In section 3.3, we focus on...
+  ✔️ In Section 3.3, we focus on...
+  ```
+
+  
+
+### 引用
+
+* 引用其他文献前面需要有空格` `。
+
+  ```markdown
+  ✖️ ...such as METEOR[7]...
+  ✔️ ...such as METEOR [7]...
+  ```
+
+* 同时引用多个文献时，文献编号应该一起写入到引用框中。
+
+  ```
+  ✖️ The encouraging works [65][1]...
+  ✔️ The encouraging works [65,1]...
+  ```
+
+* 引用编号不要单独出现。
+
+  ```markdown
+  ✖️ [1] utilizes...
+  ✔️ SAAT [1] utilizes...
+  ```
+
+
+
+### 缩略词
+
+* 正式写作中避免使用缩略语（contraction）——除非一些引用中需要。	
+
+  ```
+  ✖️ It's interesting to note that...
+  ✔️ It is interesting to note that...
+  ```
+
+* Don’t use *can not* when you mean *cannot*. ([grammarly](https://www.grammarly.com/blog/cannot-or-can-not/#:~:text=Can't%20is%20a%20contraction%20of%20cannot%2C%20and%20it's%20best,.%20.%20.%20but%20also.%E2%80%9D)) 
+
+  ```
+  ✖️ ...descriptions that can not be normally parsed.
+  ✔️ ...descriptions that cannot be normally parsed.
+  ```
+
+  
+
+### 超链接
+
+* 文中对于图、表、小节的指代应该以超链接的方式表示。且需要大写首字母。
+
+  ```
+  ✔️ Section 3.2; Figure 4; Table 2;
+  ```
+
+  
+
+### 标题
+
+* 小标题除介词等需要首字母大写 (Optional)
+
+  ```
+  ✖️ 2.2. Video captioning with semantic lables
+  ✔️ 2.2. Video Captioning with Semantic Lables
+  ```
+
+
+
+### 情态动词（modal）和时态
+
+* 除非强烈的对未来的预测，否则将来时不建议使用。
+
+  ```
+  ✖️ During inference,... decoder will be used to... and... decoder will be removed.
+  ✔️ During inference,... decoder is used to... and... decoder is removed.
+  
+  ✖️ In the reference stage, the auxiliary decoder will not be used any more.
+  ✔️ In the reference stage, the auxiliary decoder is not be used.
+  ```
+
+* 叙述前人的工作时候，往往采用过去式。
+
+  ```
+  ✖️ Spampinato et al. [31] first design a ... method.
+  ✔️ Spampinato et al. [31] first designed a ... method.
+  ```
+
+
+
+
+### 数字
+
+* 每三位数字用逗号隔开。
+
+  ```
+  ✖️ 1464
+  ✔️ 1,464
+  ```
+
+* ```
+  ✖️ ... achieved 64.70 mIoU...
+  ✔️ ... achieved an mIoU of 64.70...
+  ```
+
+
+
+
+### 避免冗长与累赘
+
+* 共用相同主语（修饰语）时，可省略后一句的主语（修饰语）。
+
+  ```
+  ﹅  ... methods mainly focus on... and they combine a standard...
+  ✔️ ... methods mainly focus on... and combine a standard...
+  
+  ﹅  Existing models fall... and they would heavily suffer from...
+  ✔️ Existing models fall... and suffer from...
+  
+  ﹅  vision model and language model.
+  ✔️ visiona and language model.
+  ```
+
+* 两个并列的句子，尽量不要前一个句子主动，后一个被动，而导致无法共用同一个主语。
+
+  ```
+  ﹅  The basic is used while our model consists of...
+  ✔️ Our model follows the basic ..., but consists of...
+  ```
+
+* ```
+  ﹅  ... loss weight, the same as in [20].
+  ✔️ ... loss weight, as in [20].
+  ```
+
+  ```
+  ﹅  Therefore, a specific ability is required that the model can learn...
+  ✔️ Therefore, models need to...
+  
+  ﹅  Due to the fact that...
+  ✔️ Since that..
+  
+  ✖️ We are the first time to ...
+  ✔️ We are the first to ...
+  
+  ✖️ For the image modality, one of them uses...
+  ✔️ For the image modality, one uses...
+  ```
+
+* ```
+  ﹅ The aforementioned methods...
+  ✔️ These methods...
+  
+  ﹅ ...adapt to more specific data, where the label of partial data is not given.
+  ✔️ ...adapt to more specific data, where not all labels are given.
+  
+  ﹅ In CMH scenario...
+  ✔️ In CMH...
+  
+  ﹅ There is not any other work that considers this task.
+  ✔️ No other work considers this task.
+  ```
+
+* 使用名词
+
+  ```
+  ﹅ ...the probabilities showing how likely the action can be recognized as...
+  ✔️ ...the probabilities showing the likelihood of the action being recognized as...
+  ```
+
+  
+
+### 避免口语化
+
+* ```
+  ﹅  ...model... takes much time to convergence...
+  ✔️ ...model... takes significant time to convergence...
+  
+  ﹅  Putting A together with B, we get...
+  ✔️ Combining A with B, we get...
+  
+  More recent work aims to solve how to capture object interactions...
+  ✔️ More recent work aims to solve the problem of capturing object interactions...
+  ```
+
+
+
+### 字体字号
+
+符号一般采用`italics`格式
